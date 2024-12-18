@@ -1,0 +1,14 @@
+Bubble sort
+
+    FOR each pass through the array
+        SET swapped = false
+        FOR each adjacent pair of elements
+            IF current element > next element
+                SWAP current element and next element
+                SET swapped = true
+            END IF
+        END FOR
+        IF no swaps occurred
+            BREAK loop
+        END IF
+    END FOR

@@ -1,0 +1,13 @@
+Vowels
+       INPUT: string to check
+    OUTPUT: number of vowels
+    SET vowels = ['a', 'e', 'i', 'o', 'u']
+    SET vowel count = 0
+    FOR each character in string
+        CONVERT character to lowercase
+        IF character is in vowels
+            INCREMENT vowel count
+        END IF
+    END FOR
+    RETURN vowel count
+END 

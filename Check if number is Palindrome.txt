@@ -1,0 +1,8 @@
+Check if number is Palindrome
+Input string a
+string b=[::-1]
+if a=b:
+          print("number is palindrome")
+else:
+          print("number is not palindrome")
+       

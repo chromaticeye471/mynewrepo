@@ -1,0 +1,7 @@
+   Factorial
+       IF number = 0 OR number = 1
+        RETURN 1
+    ELSE
+        RETURN number * Factorial(number - 1)
+    END IF
+END 

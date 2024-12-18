@@ -1,0 +1,13 @@
+Find the largest number
+ 
+    IF array is empty
+        RETURN null
+    END IF
+    SET largest = first element of array
+    FOR each element in array
+        IF current element > largest
+            SET largest = current element
+        END IF
+    END FOR
+
+    RETURN largest

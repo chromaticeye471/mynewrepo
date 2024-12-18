@@ -1,0 +1,11 @@
+Prime
+    IF number ≤ 1
+        RETURN false
+    END IF
+    FOR divisor = 2 TO square root of number
+        IF number is divisible by divisor
+            RETURN false
+        END IF
+    END FOR
+    RETURN true
+END ALGORITHM

@@ -1,0 +1,19 @@
+Fibanocii Series 
+
+IF number of terms ≤ 0
+        RETURN empty array
+    END IF
+
+    CREATE result array
+    ADD 0 to result array
+    IF number of terms > 1
+        ADD 1 to result array
+    END IF
+
+    WHILE length of result array < number of terms
+        SET next term = sum of last two terms in result array
+        ADD next term to result array
+    END WHILE
+
+    RETURN result array
+END ALGORITHM

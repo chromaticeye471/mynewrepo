@@ -1,0 +1,17 @@
+Calculator
+ INPUT: first number, operation, second number
+        CASE '+'
+            RETURN first number + second number
+        CASE '-'
+            RETURN first number - second number
+        CASE '*'
+            RETURN first number * second number
+        CASE '/'
+            IF second number is not equal to 0
+                RETURN first number / second number
+            ELSE
+                RETURN error "Division by zero"
+            END IF
+          END
+        
+           
